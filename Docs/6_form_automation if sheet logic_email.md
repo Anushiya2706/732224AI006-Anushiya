@@ -1,0 +1,15 @@
+- Create a workflow.
+- Add a trigger that activates when a specific event occurs.
+- The workflow performs an initial step and reads data from the spreadsheet.
+- Then add an IF condition that checks for true or false.
+- If the condition is true, the workflow follows the first path.
+- In this path, add a new column called Age to the given data.
+- Then create another spreadsheet named Old and connect it to this path.
+- If the condition is false, the workflow follows the alternate path.
+- Create another spreadsheet named Young and attach it to the alternate path.
+- The process completes when either of the two conditions is met.
+- First, the trigger starts the process, sending the data to the sheet and then to the IF condition.
+- If the condition is true, it executes the first path; otherwise, it executes the alternate path.
+
+- # screen shot
+- <img width="1134" height="562" alt="image" src="https://github.com/user-attachments/assets/b596747c-b52f-46fd-bb75-51f6f3702792" />                                            
